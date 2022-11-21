@@ -1,0 +1,71 @@
+html yt
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="styleyt.css">
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="container">
+        <!-- logo -->
+        <div id="logo">MUSIC</div>
+        <!-- navbar -->
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- circle -->
+        <div id="circle"></div>
+        <!-- side image -->
+        <div id="sideImage">
+            <img src="assets/music.png" alt="">
+        </div>
+        <!-- main content -->
+        <div id="content">
+            <h2>MUSIC</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores voluptates conseq uuntur natus nulla
+                sequi ipsa quae officiis provident ad aut nemo temporibus, quibus dam corrupti qui nostrum quis
+                repudiandae blanditiis eius, voluptatem ducimus. Illum libero unde asperiores provident ab modi,
+                incidunt eligendi. Vitae necessitatibus sit amet iste, eligendi provident aspernatur rerum.</p>
+                <button>Download!</button>
+        </div>
+        <!-- social links -->
+        <!-- visit fontawesome.com for icons -->
+        <div id="socialLinks">
+            <!-- facebook -->
+            <a href="">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- instagram -->
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- youtube -->
+            <a href="">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <!-- animated music icon -->
+        <div id="music">
+            <!-- music -->
+            <i class="fas fa-music"></i>
+        </div>
+        <!-- container end -->
+    </div>
+</body>
+</html>

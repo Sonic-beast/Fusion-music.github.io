@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="stylef.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="fusionlogo2.png" class="logo">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/my%20website/Fusion.html">HOME</a> </li>
+                <li><a href="http://127.0.0.1:5500/my%20website/about.html">ABOUT</a> </li>
+                <li><a href="http://127.0.0.1:5500/my%20website/playback.html">TRENDING</a> </li>
+                <li><a href="">GENRE</a>
+                    <select>
+                        <option selected>ROCK</option>
+                        <option>POP</option>
+                        <option>JAZZ</option>
+                        <option>ELECTRONIC</option>
+                        <option>TECHNO</option>
+                        <option>DUBSTEP</option>
+                        <option>COUNTRY</option>
+                        <option>RHYTHM & bLUES</option>
+                    </select>
+                </li>
+                <li><a href="">LANGUAGE</a>
+                    <select>
+                        <option selected>ENGLISH</option>
+                        <option>HINDI</option>
+                        <option>PUNJABI</option>
+                        <option>TELUGU</option>
+                        <option>TURKISH</option>
+                        <option>BHOJPURI</option>
+                        <option>SPANISH</option>
+                        <option>MARATHI</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>BEAT <br> OF <br> THE <br> STREET</h1>
+            </div>
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="3dplay.png" id="icon">
+                <p>Explore Here</p>
+                <button id="button"> <a style="text-decoration: none;" href="http://127.0.0.1:5500/my%20website/playback.html">PLAYLIST</a></button>
+                <button id="button"> <a style="text-decoration: none;" href="http://127.0.0.1:5500/my%20website/login.html">LOGIN / SIGN UP</a></button>
+            </div>
+        </div>
+    </div>
+    <audio id="mysong">
+        <source src="assvoice.mp3" type="audio/mp3">
+    </audio>
+<script>
+    var mysong = document.getElementById("mysong");
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        if(mysong.paused){
+            mysong.play();
+            icon.src ="3dpause.png"
+        }else{
+            mysong.pause();
+            icon.src = "3dplay.png"
+        }
+    }
+</script>
+</body>
+</html> 

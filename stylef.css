@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(car.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+p:hover{
+    color: #01ce69;
+    border-bottom: 2px solid #01ce69;
+    width: calc(100%-150px);
+}
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar ul li a {
+    width: auto;
+    margin: 0 70px;
+    font-size: 25px;
+    margin-left: 0;
+    display: grid;
+    place-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar ul li a:hover{
+    color: #01ce69;
+    border-bottom: 2px solid #01ce69;
+    width: calc(100% - 150px);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.content p {
+    font-size: 18px;
+}
+.content button {
+    height: 65px;
+    width: 210px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    margin: 20px 0;
+    font-size: 20px;
+    background: aqua;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content button:hover {
+    color: aqua;
+    border: 2px solid aqua;
+    background: transparent;
+}
+.left-col{
+    margin-left: 6%;
+
+}
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.right-col p{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    margin-right: 15px;
+    
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+h1:hover{
+    color: pink;
+}
